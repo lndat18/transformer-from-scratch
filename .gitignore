@@ -1,0 +1,28 @@
+# Virtual environments
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+
+# Project specific ignores
+# Bỏ qua thư mục chứa dữ liệu (thường rất nặng)
+data/
+
+# Bỏ qua thư mục chứa trọng số mô hình đã huấn luyện (model weights)
+weights/
+*.pt
+*.pth
+*.ckpt
